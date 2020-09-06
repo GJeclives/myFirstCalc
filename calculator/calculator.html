@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCalc</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body class="body">
+      <div class="heading" id="heading">
+    <h1 id="headtext">Calculator project</h1>
+      </div>
+      <br>
+      <main class="main">
+    <div class="display"  
+    contenteditable="false"
+    >
+      <span id="ang">R</span>
+      <br>
+      <div class="input"
+      contenteditable="true"
+       ><input id="input" type="text" class="input"  ></div> <!-- autocomplete="off" -->
+      <br>  
+      <div class="output"></div>
+    </div>
+    <br>  <br>
+    
+    <div class="keys">
+    <div class="keyd" id="row1">
+      <div class="key" id="button0"><br>2ndF</div> 
+      <div class="key" id="button1"><br>(</div>
+      <div class="key" id="button2"><br>)</div>
+      <div class="key" id="button3"><br><-</div> 
+      <div class="key" id="button4"><br>clear</div> 
+    </div> 
+    <!-- <div class="space"></div> -->
+    <div class="keyd" id="row2">
+      <div class="key" id="button5"><br>7</div> 
+      <div class="key" id="button6"><br>8</div>
+      <div class="key" id="button7"><br>9</div>
+      <div class="key" id="button8"><br><</div> 
+      <div class="key" id="button9"><br>></div> 
+    </div> 
+    <!-- <div class="space"></div> -->
+    <div class="keyd" id="row3">
+      <div class="key" id="button10"><br>4</div>
+      <div class="key" id="button11"><br>5</div>
+      <div class="key" id="button12"><br>6</div> 
+      <div class="key" id="button13"><br>×</div>
+      <div class="key" id="button14"><br>/</div>
+    </div> 
+    <!-- <div class="space"></div> -->
+    <div class="keyd" id="row4">
+      <div class="key" id="button15"><br>1</div>
+      <div class="key" id="button16"><br>2</div>
+      <div class="key" id="button17"><br>3</div>
+      <div class="key" id="button18"><br>+</div>
+      <div class="key" id="button19"><br>-</div> 
+    </div> 
+    <!-- <div class="space"></div> -->
+    <div class="keyd" id="row5">
+      <div class="key" id="button20"><br>.</div>
+      <div class="key" id="button21"><br>0</div>
+      <div class="key" id="button22"><br>^(</div>
+      <div class="key" id="button23"><br>R/D</div>
+      <div class="key" id="button24"><br>=</div> 
+    </div> 
+    <!-- <div class="space"></div> -->
+    </div>
+    
+  </main>
+    <!-- javascript -->
+    <script src="calculator.js"></script>
+  </body>
+</html>

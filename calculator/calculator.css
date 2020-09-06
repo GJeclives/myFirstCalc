@@ -1,0 +1,49 @@
+.body{
+    background-color: powderblue;
+}
+#heading{
+    height: 65px;
+    text-align: center;
+    border: 7px solid purple;
+    border-radius: 25px;
+    background-color: violet;
+}
+.main{
+    margin: 0 auto;
+    border: 4px solid purple;
+    border-radius: 25px;
+    height: 420px;
+    max-width: 270px;
+    background-color: lightskyblue;
+
+}
+.display{
+    margin: 0 auto;
+    text-align: end;
+    border: 2px solid rgb(133, 87, 117);
+    border-radius: 20px;
+    height: 100px;
+    background-color: rgb(235, 236, 241);
+}
+#input, #output{
+    margin: 0 auto;
+    
+}
+.keys{
+    margin: 0 auto;
+    max-width: 250px;
+}
+.space{
+    height: 30px;
+}
+.key{
+    float: left;
+    text-align: center;
+    user-select: none;
+    height: 50px;
+    width: 50px;
+    background: rgb(253, 253, 253);
+    border-radius: 50%;
+    border: 5px #000;
+}
+/* 0 */
