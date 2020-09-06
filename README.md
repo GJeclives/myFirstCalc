@@ -1,0 +1,2 @@
+# myFirstCalc
+Customary calculator project
